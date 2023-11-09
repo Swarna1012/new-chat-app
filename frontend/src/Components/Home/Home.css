@@ -1,0 +1,76 @@
+.home_container {
+    display: flex;
+}
+  
+.grid_sidebar {
+    /* flex: 0 0 250px; Fixed width for the sidebar */
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+    height: 100vh; /* Make it full height */
+    overflow-y: auto; /* Enable scrolling for the sidebar if needed */ 
+}
+  
+.grid_content {
+    background-color: #212121;
+    padding-left: 50px;
+    flex-grow: 1; /* Allow content to grow and take up the available space */
+    padding-top: 50px; /* Add spacing for content */
+    overflow-y: auto; /* Enable scrolling for the content if it overflows */
+}
+
+.home_sidebar{
+  padding: 10px;
+}
+
+.profile_details{
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.profile_extra{
+  justify-content: center;
+  display: flex;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.profile_extra_inside{
+  padding: 15px;
+}
+
+.pro_title{
+  font-size: 16px;
+}
+
+.small_divider{
+  margin-top: 15px;
+  border-left: 1px solid rgb(77, 75, 75);
+  height: 40px;
+}
+
+.sidebar_titles{
+  color: white;
+  padding: 20px;
+}
+
+
+.sidebar_topic{
+  padding: 20px;
+  display: flex;
+  color: white;
+}
+.icons{
+  padding-right: 30px;
+}
+.sidebar_words{
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+.fileupload > input{
+  display: none;
+}
+
